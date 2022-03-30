@@ -1,0 +1,19 @@
+.header {
+    margin-top: 2.3rem;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        margin-right: 3.5rem;
+        font-size: 1.125rem;
+        transition: all .2s linear;
+    }
+    &__link:last-child {
+        margin-right: 0;
+    }
+    &__link:hover {
+        color: #5CA35B;
+    }
+}

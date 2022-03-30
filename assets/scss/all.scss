@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #11161E;
+    font-family: 'Roboto', sans-serif;
+    color: #6A7C95;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1222px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+
+.button {
+    font-size: 1.1rem;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fefefe;
+    background: #5CA35B;
+    padding: 11px 26px;
+    transition: all 0.5s;
+    border: none;
+    &__alt {
+        background-color: #6A7395;
+        width: 80%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    &__team {
+        background-color: #6A9590;
+        width: 80%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    &__delete {
+        background-color: #95936A;
+        width: 80%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+.button:hover {
+    background-color: #27313E;
+    color: #6A7C95;
+}
+
+.button__alt:hover,
+.button__team:hover,
+.button__delete:hover {
+    background-color: #11161E;
+}
+
+a.top__contact--text:hover {
+    text-decoration: underline;
+}
+
+.dark {
+    color: #3B485A;
+}
+
+// .button:hover {}

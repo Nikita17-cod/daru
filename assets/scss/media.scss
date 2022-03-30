@@ -1,0 +1,162 @@
+@media (max-width: 1440px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
+
+
+/* Large desktops and laptops */
+
+@media (max-width: 1200px) {
+    .top__title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .top__text {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+    .top__contact {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .top__right {
+        text-align: right;
+    }
+    .top__img {
+        width: 90%;
+        height: auto;
+    }
+    .about__text {
+        font-size: 1rem;
+        margin-bottom: 2.8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .about__inner {
+        // justify-content: center;
+        flex-direction: column
+    }
+    // .about__saving {
+    //     height: 50rem !important;
+    // }
+    // .about__convenience {
+    //     width: 50% !important;
+    // }
+    // .about__convenience {
+    //     width: 100% !important;
+    // }
+    .about__saving,
+    .about__convenience {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about,
+    .opportunities {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .top__title {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+    .top__text {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .top__contact {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        background-color: #181F29;
+        padding-top: .5rem;
+        padding-bottom: 1.5rem;
+    }
+    .opportunities {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .top__right {
+        display: none;
+    }
+    .top__left {
+        width: 100%;
+        text-align: center;
+    }
+    .top__contact {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .title,
+    .about__txt {
+        text-align: center;
+    }
+    .opportunities__inner {
+        max-width: 100%
+    }
+    .opportunities__logos {
+        width: 100%;
+        text-align: center;
+    }
+    .opportunities__logo:last-child {
+        margin-right: 0;
+    }
+    .about__txt {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .opportunities__logos {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .top__contact {
+        margin-top: 0;
+        &--text {
+            font-size: 0.8rem;
+        }
+    }
+    .top {
+        &__email,
+        &__phone {
+            margin-top: 1.2rem;
+        }
+    }
+    .about__title {
+        font-size: 1.4rem;
+        margin-top: 0.7rem;
+        margin-bottom: 1.2rem;
+    }
+    .about__text {
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .top__title {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .top__text {
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .title {
+        font-size: 2.2rem
+    }
+    .about__txt {
+        font-size: 1rem;
+    }
+}
