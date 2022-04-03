@@ -46,13 +46,14 @@
     &__inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    &__saving,
-    &__convenience,
-    &__possibility {
-        max-width: 317px;
+    &__col {
+        flex-basis: 33.333%;
+        padding: 1rem;
+    }
+    &__item {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -111,12 +112,13 @@
         align-items: center;
         justify-content: space-between
     }
-    &__alt,
-    &__team,
-    &__delete {
+    &__col {
+        flex-basis: 33.333%;
+        padding: 1rem;
+    }
+    &__item {
         padding-top: 3rem;
         padding-bottom: 3rem;
-        max-width: 317px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -182,7 +184,8 @@
     &__inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     &__text {
         font-size: 0.8rem;
@@ -197,13 +200,18 @@
     &__img {
         margin-right: 1rem;
     }
-    &__right,
-    &__left,
-    &__middle {
+    &__col {
         width: 33.333%;
+        text-align: center;
     }
     &__right {
         text-align: right;
+    }
+    &__left {
+        text-align: left;
+    }
+    &__middle {
+        display: flex;
     }
 }
 
